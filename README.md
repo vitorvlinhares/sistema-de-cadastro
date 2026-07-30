@@ -4,7 +4,7 @@ Aplicação desktop em JavaFX para cadastro de funcionários (nome, cargo, salá
 
 ## Requisitos
 
-- Java 21 (JDK)
+- Java 25 (JDK) — o projeto usa Maven Toolchains para localizar a JDK 25 automaticamente; configure-a em `~/.m2/toolchains.xml`
 - Maven 3.9+
 
 ## Como rodar

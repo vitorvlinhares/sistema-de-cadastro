@@ -8,7 +8,7 @@
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.Pane?>
 
-<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="800.0" style="-fx-background-color: #996FF0;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="app.controllers.openningController">
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="800.0" style="-fx-background-color: #996FF0;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="app.controllers.OpenningController">
     <children>
         <Button fx:id="btEntrar" layoutX="375.0" layoutY="302.0" mnemonicParsing="false" onAction="#abrirViewFuncionario" text="Entrar" />
         <Button fx:id="btCriarLogiin" layoutX="362.0" layoutY="340.0" mnemonicParsing="false" onAction="#abrirCadastro" text="Criar Login" />
